@@ -1,0 +1,57 @@
+/*Fondo Azul*/
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* fondo blanco */
+}
+
+header {
+  background-color: #003366; /* azul institucional */
+  color: white;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+button {
+  background-color: #FF6600; /* acento naranja */
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff8533; /* naranja más claro al pasar el mouse */
+}
+
+footer {
+  background-color: #003366; /* azul institucional */
+  color: white;
+  text-align: center;
+  padding: 1em;
+}

@@ -1,0 +1,62 @@
+/* Fondo Naranja */
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* fondo blanco */
+  color: #333333; /* texto gris oscuro */
+}
+
+header {
+  background-color: #F36F21; /* naranja institucional */
+  color: white;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+button {
+  background-color: #F36F21; /* botón naranja */
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #ff7f3f; /* naranja más claro al pasar el mouse */
+}
+
+footer {
+  background-color: #F36F21; /* pie de página naranja */
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
